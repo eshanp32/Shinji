@@ -5,7 +5,7 @@ router = APIRouter()
 
 @router.get("/", tags=["Root"])
 async def root():
-    return {"message": "Welcome To Life!"}
+    return {"message": "Konichiwa From Shinji!"}
 
 
 @router.get("/health", tags=["Health Check"])
